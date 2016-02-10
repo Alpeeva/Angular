@@ -1,0 +1,22 @@
+<h2 class="title">Courses list</h2>
+<div class="actions-block">
+   <form class="col-lg-5 form-horizontal search-block" role="search">
+    <div class="form-group">
+      <input class="form-control search" id="appendedInputButtons" type="text" placeholder="Search" ng-model="searchquery">
+    </div>
+  </form>
+  <a ui-sref="courses.new" class="btn btn-default pull-right">Add a course</a>
+  
+  <div ui-view=""></div>
+</div>
+
+<ul class="courses">
+  <li ng-repeat="course in courses | filter:searchquery">
+    <span class="name col-lg-2">{{course.name}}</span>
+    <span class="duration">{{course.duration}} (min)</span>
+    <button class="btn btn-default delete-btn pull-right" ng-click="delete(course.id)">Delete</button>
+    <button class="btn btn-default edit-btn pull-right" ui-sref="courses.edit({courseId: course.id})">Edit</button>
+    <span class="date pull-right">{{course.date | date:'shortDate'}}</span>
+    <span class="description col-lg-10">{{course.description}}</span>
+  </li>
+</ul>

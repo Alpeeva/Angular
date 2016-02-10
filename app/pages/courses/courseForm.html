@@ -1,0 +1,37 @@
+<form class="form-horizontal col-lg-7 center-block login-form">
+  <div class="form-group">
+    <label for="name" class="col-sm-3 control-label">Name</label>
+    <div class="input-group col-sm-9">
+      <input type="text" id="name" class="form-control" ng-model="course.name" placeholder="Name" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="description" class="col-sm-3 control-label">Description</label>
+    <div class="input-group col-sm-9">
+      <input type="text" id="description" class="form-control" ng-model="course.description" placeholder="Description" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-3 control-label">Date</label>
+    <div class="input-group col-sm-9">
+      <input type="text" class="form-control" uib-datepicker-popup="shortDate" ng-model="course.date" is-open="popup.opened" />
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-default" ng-click="open()"><i class="glyphicon glyphicon-calendar"></i></button>
+      </span>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="duration" class="col-sm-3 control-label">Duration</label>
+    <div class="input-group col-sm-9">
+      <input type="text" id="duration" class="form-control" ng-model="course.duration" placeholder="Duration" />
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-5 col-sm-4">
+      <button ng-click="cancel()" class="btn btn-default">Cancel</button>
+      <button ng-if="create" ng-click="create()" class="btn btn-default">Create</button>
+      <button ng-if="edit" ng-click="edit()" class="btn btn-default">Edit</button>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 404.9 381.1" style="enable-background:new 0 0 404.9 381.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4E3D5F;}
+	.st1{fill:#3C3C3B;}
+	.st2{fill:#41868F;}
+	.st3{fill:#DB495E;}
+</style>
+<g id="Background">
+</g>
+<g id="Objects">
+	<g>
+		<g>
+			<g>
+				<path class="st0" d="M106.9,95.2l226.8,0V73.9H106.9c-26.7,0-36.6-7.1-36.6-26.3c0-24.6,9.7-26.4,25.8-26.4c1.7,0,3.4,0,5.1,0.1
+					c1.7,0,3.4,0,5.1,0h227.4V0.1H106.3c-1.5,0-3.1,0-4.7,0c-1.8,0-3.6,0-5.5,0C83.3,0,49.1,0,49.1,47.7
+					C49.1,79.2,68.5,95.2,106.9,95.2L106.9,95.2z M106.9,95.2"/>
+				<rect x="93.7" y="28.9" class="st1" width="226.8" height="7"/>
+				<rect x="93.7" y="43.6" class="st1" width="226.8" height="7"/>
+				<rect x="93.7" y="59.3" class="st1" width="226.8" height="7.1"/>
+			</g>
+			<polygon class="st2" points="333.7,0 352.2,10.7 333.7,21.4 			"/>
+			<polygon class="st0" points="347,7.7 347,13.7 352.2,10.7 			"/>
+		</g>
+		<g>
+			<g>
+				<path class="st3" d="M298.2,227.1c2.1,0,4.3,0,6.5,0c15.3,0,56.1,0,56.1-56.7c0-37.6-23.2-56.6-68.9-56.6H21.9v25.3h269.9
+					c31.8,0,43.6,8.4,43.6,31.3c0,29.3-11.6,31.4-30.8,31.4c-2.1,0-4.1,0-6.1-0.1c-2,0-4,0-6,0H21.9V227h270.7
+					C294.4,227,296.3,227,298.2,227.1L298.2,227.1z M298.2,227.1"/>
+				<rect x="37.8" y="185.1" class="st1" width="270" height="7"/>
+				<rect x="37.8" y="167.5" class="st1" width="270" height="7.1"/>
+				<rect x="37.8" y="148.8" class="st1" width="270" height="7.1"/>
+			</g>
+			<polygon class="st0" points="21.9,139.1 0,126.5 21.9,113.8 			"/>
+			<polygon class="st3" points="6.1,130 6.1,122.9 0,126.5 			"/>
+		</g>
+		<g>
+			<g>
+				<path class="st2" d="M380.5,246.1H78.4c-2,0-4.1,0-6.3,0c-2.3,0-4.8-0.1-7.2-0.1c-17.1,0-62.6,0-62.6,63.3
+					c0,41.9,25.9,63.2,76.9,63.2h301.3v-28.3l-301.3,0c-35.5,0-48.7-9.5-48.7-34.9c0-32.7,13-35.1,34.4-35.1c2.3,0,4.6,0,6.8,0.1
+					c2.3,0,4.6,0,6.7,0h302.1V246.1z M380.5,246.1"/>
+				<rect x="61.5" y="285.4" class="st1" width="301.3" height="7.1"/>
+				<rect x="61.5" y="305.1" class="st1" width="301.3" height="7.1"/>
+				<rect x="61.5" y="325.9" class="st1" width="301.3" height="7.1"/>
+			</g>
+			<polygon class="st3" points="380.5,246.1 404.9,260.2 380.5,274.3 			"/>
+			<polygon class="st2" points="398.1,256.2 398.1,264.1 404.9,260.2 			"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+      <meta charset="utf-8">
+      <title>Alpieieva training portal</title>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+      <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="theme/default/styles.css" rel="stylesheet" />
+      <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css" />
+  </head>
+  <body id="body">
+    <div id="main-block" class="container clear-top">
+      <header id="header">
+        <a ui-sref="/" id="logo" class="col-lg-10"><img src="img/logo.svg" alt="Training portal logo">Training portal</a>
+      </header>
+      <main id="main" ui-view></main>
+    </div>
+    <footer id="footer" class="row-fluid container text-center">
+        <span class="copyright">&copy; Copyright 2016</span>
+      </footer>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+    <script src="app/appModule.js"></script>
+    <script src="app/pages/login/loginCtrl.js"></script>
+    <script src="app/pages/login/loginService.js"></script>
+    <script src="app/pages/courses/coursesListCtrl.js"></script>
+    <script src="app/pages/courses/newCourseCtrl.js"></script>
+    <script src="app/pages/courses/editCourseCtrl.js"></script>
+  
+    <script src="app/models/course.js"></script>
+    
+    <script src="app/api/serverModule.js"></script>
+    <script src="app/api/coursesDataModel.js"></script>
+    <script src="app/api/userDataModel.js"></script>
+  </body>
+</html>
